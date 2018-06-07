@@ -1,0 +1,105 @@
+<h1>Welcome to Curry Up!</h1>
+<p><strong>We can give a healthy food to you and your family.</strong></p>
+
+<mat-card>
+  <br>
+<div class="container">
+ <img src="assets/images/square1.png" width="300px" height="auto"alt="Firestarter Angular4 Demo App"/>
+  
+    <button mat-button>
+      <a class="nav-item" routerLink="/recipe1">
+<!-- <a class="nav-item" routerLink="/notes"> -->
+     <strong> Madras Chicken </strong> 
+    </a>
+  </button>
+  </div>
+  <br>
+  <br>
+  </mat-card>
+  <br>
+<mat-card>
+    <div class="container">
+ <img src="assets/images/square2.png" width="300px" height="auto"alt="Firestarter Angular4 Demo App"/>
+  <button mat-button>
+    <a class="nav-item" routerLink="/recipe2">
+<!-- <a class="nav-item" routerLink="/uploads"> -->
+      
+        <strong>Shrimp  Curry</strong> 
+    </a>
+  </button>
+  </div>
+  <br>
+  <br>
+  </mat-card>
+<br>
+<mat-card>
+  <div class="container">
+ <img src="assets/images/square3.png" width="300px" height="auto"alt="Firestarter Angular4 Demo App"/>
+   <button mat-button>
+     <a class="nav-item" routerLink="/recipe3">
+ <!-- <a class="nav-item" routerLink="/items"> -->
+    
+        
+        <strong>Chettinad Chicken </strong> 
+      
+    </a>
+     
+ </button>
+  </div>
+  <br>
+  <br>
+  </mat-card>
+  <br>
+  <mat-card>
+  <div class="container">
+ <img src="assets/images/square4.png" width="300px" height="auto"alt="Firestarter Angular4 Demo App"/>
+    <button mat-button>
+      <a class="nav-item" routerLink="/recipe4">
+ <!-- <a class="nav-item" routerLink="/items"> -->
+      
+
+        
+        <strong>Mutton Curry </strong> 
+      
+    </a>
+     
+  </button>
+  </div>
+  <br>
+  <br>
+  </mat-card>
+ 
+      <router-outlet></router-outlet>
+<!-- <h2>what is curry up about?</h2>
+
+<p>
+  <i class="fa fa-slack fa-lg"></i> lets see what is <a target="blank" href="https://www.google.com/search?q=chicken&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi4r8fc3fbaAhXDhOAKHSjcBMoQ_AUoAXoECAAQAw&biw=1536&bih=710">
+  Curry Up
+</a>
+</p>
+
+<!-- <h2>Curry up Products?</h2> -->
+
+<!-- <p>
+  <i class="fa fa-slack fa-lg"></i> lets have a loot at <a target="blank" href="https://www.google.com/search?q=chicken&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi4r8fc3fbaAhXDhOAKHSjcBMoQ_AUoAXoECAAQAw&biw=1536&bih=710">
+  Curry Up Products
+</a>
+</p> --> 
+<br>
+
+<div class="wrapper">
+    <div class="carousel">
+        <ul class="slides">
+            <li *ngFor="let image of images">
+            <h2>{{image.title}}</h2>
+            <img src="{{image.url}}" alt="">
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- need to add card and also in footer other missl stuffs -->
+
+ <a class="nav-item" routerLink="/news">
+      <strong>News</strong>
+    </a>
